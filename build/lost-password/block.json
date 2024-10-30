@@ -1,0 +1,41 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "boosted/boosted-lost-password",
+  "version": "0.1.0",
+  "title": "Lost Password",
+  "category": "boosted-front-end-login",
+  "icon": "smiley",
+  "description": "Lost password form",
+  "attributes": {
+    "lostDescription": {
+      "type": "string",
+      "default": "Lost your password? Please enter your username or email address. You will receive a link to create a new password via email."
+    },
+    "usernameLabel": {
+      "type": "string",
+      "default": "Username or Email"
+    },
+    "usernamePlaceholder": {
+      "type": "string",
+      "default": ""
+    },
+    "resetButtonLabel": {
+      "type": "string",
+      "default": "Reset Password"
+    },
+    "uniqueId": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "textdomain": "boosted-front-end-login",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php"
+}

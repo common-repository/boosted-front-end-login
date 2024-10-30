@@ -1,0 +1,61 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "boosted/boosted-registration",
+  "version": "0.1.0",
+  "title": "User Registration",
+  "category": "boosted-front-end-login",
+  "icon": "smiley",
+  "description": "User Registration form",
+  "attributes": {
+    "usernameLabel": {
+      "type": "string",
+      "default": "Username"
+    },
+    "usernamePlaceholder": {
+      "type": "string",
+      "default": ""
+    },
+    "emailLabel": {
+      "type": "string",
+      "default": "Email"
+    },
+    "emailPlaceholder": {
+      "type": "string",
+      "default": ""
+    },
+    "passwordLabel": {
+      "type": "string",
+      "default": "Password"
+    },
+    "passwordPlaceholder": {
+      "type": "string",
+      "default": ""
+    },
+    "confirmPassword": {
+      "type": "string",
+      "default": "Confirm Password"
+    },
+    "confirmPasswordPlaceholder": {
+      "type": "string",
+      "default": ""
+    },
+    "registerButtonLabel": {
+      "type": "string",
+      "default": "Register"
+    },
+    "uniqueId": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "textdomain": "boosted-front-end-login",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php"
+}

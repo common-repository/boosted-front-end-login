@@ -1,0 +1,76 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "boosted/boosted-front-end-login",
+  "version": "0.1.0",
+  "title": "Login",
+  "category": "boosted-front-end-login",
+  "description": "Front-end login form",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "usernameLabel": {
+      "type": "string",
+      "default": "Username or Email"
+    },
+    "usernamePlaceholder": {
+      "type": "string",
+      "default": ""
+    },
+    "passwordLabel": {
+      "type": "string",
+      "default": "Password"
+    },
+    "passwordPlaceholder": {
+      "type": "string",
+      "default": ""
+    },
+    "rememberMeLabel": {
+      "type": "string",
+      "default": "Remember Me"
+    },
+    "loginButtonLabel": {
+      "type": "string",
+      "default": "Log In"
+    },
+    "registerLabel": {
+      "type": "string",
+      "default": "Register"
+    },
+    "lostPasswordLabel": {
+      "type": "string",
+      "default": "Lost Password?"
+    },
+    "uniqueId": {
+      "type": "string",
+      "default": ""
+    },
+    "redirectURL": {
+      "type": "string",
+      "default": ""
+    },
+    "registerDisplay": {
+      "type": "boolean",
+      "default": false
+    },
+    "registerLink": {
+      "type": "string",
+      "default": ""
+    },
+    "lostPasswordDisplay": {
+      "type": "boolean",
+      "default": false
+    },
+    "lostPasswordLink": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "example": {},
+  "textdomain": "boosted-front-end-login",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php"
+}
